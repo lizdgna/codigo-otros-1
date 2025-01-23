@@ -26,4 +26,4 @@ function handleError(err) {
   $n.textContent = `Algo salió mal: ${err}`; 
 }
 
-displayUser('stolinski').catch(handleError);
+displayUser('stolinski').catch(handleError);//
